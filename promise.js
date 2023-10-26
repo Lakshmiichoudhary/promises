@@ -55,7 +55,7 @@ async function main() {
 
     console.log('Last User Activity Time:', lastUserActivityTime);
 
-    await deletePost(); // Implement deletePost function
+    await deletePost(); // Implemented the  deletePost function
 
     console.log('New set of Posts:');
     Posts.forEach((post) => {
